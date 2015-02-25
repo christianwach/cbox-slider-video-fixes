@@ -1,7 +1,7 @@
 CBOX Slider Video Fixes
 =======================
 
-A demo plugin that fixes the handling of video in the default slider provided by the CBOX Theme
+A demo plugin that fixes the handling of video in the default slider provided by the CBOX Theme. Requires the [slider-control branch of cbox-theme](https://github.com/christianwach/cbox-theme/tree/slider-control) to work.
 
 ---
 

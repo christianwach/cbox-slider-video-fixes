@@ -66,3 +66,22 @@ add_filter( 'embed_oembed_html', 'cbox_slider_video_fixes_wp_embed_handler_youtu
 
 
 
+
+/**
+ * Customise the CBOX Slider
+ */
+function cbox_slider_video_fixes_flex_slider_controls( $args ) {
+
+	// show slider controls
+	$args['controls'] = true;
+
+	// --<
+	return $args;
+
+}
+
+// add filter for the above
+add_filter( 'cbox_flex_slider_controls', 'cbox_slider_video_fixes_flex_slider_controls' );
+
+
+
